@@ -40,6 +40,8 @@ dependencies = [
     "policyuniverse>=1.1.0.0",
     "google-api-python-client>=1.7.8",
     "google-auth>=2.37.0",
+    "google-api-core>=2.17.1",
+    "cachetools>=5.3.2",
     "marshmallow>=3.0.0rc7",
     "oci>=2.71.0",
     "okta<1.0.0",
@@ -63,6 +65,18 @@ dependencies = [
     "python-dateutil",
     "xmltodict",
     "duo-client",
+    "fastapi>=0.110.0",
+    "uvicorn>=0.27.1",
+    "pydantic>=2.6.1",
+    "portalocker>=2.8.2",
+    "protobuf>=4.25.3",
+    "googleapis-common-protos>=1.62.0",
+    "pyasn1-modules>=0.3.0",
+    "pyasn1>=0.5.1",
+    "rsa>=4.9",
+    "uritemplate>=4.1.1",
+    "httplib2>=0.22.0",
+    "pyparsing>=3.1.1",
 ]
 # Comes from Git tag
 dynamic = [ "version" ]
